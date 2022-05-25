@@ -12,7 +12,8 @@ from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, Dropout
 # Reading the dataset
-df = pd.read_csv(C: // Users//ankit//Desktop//MSCIT//DL//DL//DL//Datasets//TESLA.csv')
+df = pd.read_csv(
+    'C://Users//ankit//Desktop//MSCIT//DL//DL//DL//Datasets//TESLA.csv')
 df.shape
 df = df['Open'].values
 df = df.reshape(-1, 1)

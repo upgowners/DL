@@ -13,7 +13,8 @@ from sklearn.model_selection import train_test_split
 from keras.regularizers import l2
 from matplotlib import pyplot
 # Reading the Dataset
-df = pd.read_csv(C: // Users//ankit//Desktop//MSCIT//DL//DL//DL//Datasets//molecular_activity.csv')
+df = pd.read_csv(
+    'C://Users//ankit//Desktop//MSCIT//DL//DL//DL//Datasets//molecular_activity.csv')
 # split into input (X) and output (y) variables
 X = df.iloc[:, 0:4].values
 y = df['Activity']

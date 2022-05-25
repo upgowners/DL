@@ -15,7 +15,8 @@ from scikeras.wrappers import KerasClassifier
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 # Reading the Dataset
-df = pd.read_csv(C: // Users//ankit//Desktop//MSCIT//DL//DL//DL//Datasets//seeds_dataset.csv')
+df = pd.read_csv(
+    'C://Users//ankit//Desktop//MSCIT//DL//DL//DL//Datasets//seeds_dataset.csv')
 # split into input (X) and output (y) variables
 X = df.iloc[:, 0:7].values
 y = df.iloc[:, -1].values
