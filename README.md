@@ -8,8 +8,8 @@ relu - if nagative hase to 0 lese positive value 1 sudhi lese bas
 Leakyrelu - -infinity to +infinity  
 
 optimizer:  
-adam  - mosrtly aaj use thay 
-sgd  
+adam  - mosrtly aaj use thay  
+sgd  - sochastick gradianed decent    
 
 loss:  
 binary_crossentropy  
